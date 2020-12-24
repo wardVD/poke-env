@@ -1,0 +1,9 @@
+[submodule "keras-rl2"]
+	path = keras-rl2
+	url = git@github.com:wardVD/keras-rl2.git
+[submodule "src/keras-rl2"]
+	path = src/keras-rl2
+	url = git@github.com:wardVD/keras-rl2.git
+[submodule "src/xmas-pokemon-bot"]
+	path = src/xmas-pokemon-bot
+	url = git@bitbucket.org:ml6team/xmas-pokemon-bot.git

@@ -102,7 +102,7 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=find_packages("src", exclude=["test*"]),
+    packages=find_packages("src",  include=["poke_env"]),
     package_dir={"": "src"},
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['mypackage'],
