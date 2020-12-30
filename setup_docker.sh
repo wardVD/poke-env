@@ -10,4 +10,4 @@ python start_rl.py --algo "${RL_ALGO:-ddqn}" \
                    --num_training_steps "${NUM_TRAIN_STEPS:-100}" \
                    --num_evaluation_steps "${NUM_EVAL_STEPS:-10}" \
                    --num_log_steps "${NUM_LOG_STEPS:-10}" \
-                   --model-dir="${MODEL_DIR:-gs://rl_all_training}"
+                   --model_dir="${MODEL_DIR:-gs://rl_all_training}"
